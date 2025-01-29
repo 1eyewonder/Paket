@@ -248,10 +248,10 @@ Target "RunTests" (fun _ ->
             })
 
     runTest "net" "Paket.Tests" "net461"
-    runTest "netcore" "Paket.Tests" "netcoreapp3.0"
+    runTest "netcore" "Paket.Tests" "net8"
 
     runTest "net" "Paket.Bootstrapper.Tests" "net461"
-    runTest "netcore" "Paket.Bootstrapper.Tests" "netcoreapp3.0"
+    runTest "netcore" "Paket.Bootstrapper.Tests" "net8"
 )
 
 Target "QuickTest" (fun _ ->
