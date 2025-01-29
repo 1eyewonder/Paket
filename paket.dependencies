@@ -14,8 +14,6 @@ nuget System.Security.Cryptography.ProtectedData >= 4.4
 nuget NETStandard.Library ~> 2.0
 nuget System.Net.Http.WinHttpHandler >= 4.5
 nuget Nuget.Packaging
-nuget Microsoft.Win32.Registry
-nuget System.Diagnostics.TraceSource
 
 # these two are not public dependencies, they're used for build-time only
 # therefore, treat them as private.
@@ -45,8 +43,6 @@ group Build
 
   nuget FAKE < 5
   nuget FSharp.Formatting prerelease
-  nuget System.ValueTuple
-  nuget Microsoft.AspNet.Razor
   nuget ILRepack
 
   github fsharp/FAKE modules/Octokit/Octokit.fsx
